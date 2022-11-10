@@ -1,12 +1,14 @@
 import { createServer } from 'http';
 
-import { runWithSpawn } from './functions';
+import { runWithDocker, runWithExec, runWithSpawn } from './functions';
 
 createServer(async (request, response) => {
   const path = request.url!.replace(/\W/, '');
 
   const routes = {
-    exec: runWithSpawn
+    exec: runWithExec,
+    spawn: runWithSpawn,
+    docker: runWithDocker
   };
 
   for await (const data of request) {
