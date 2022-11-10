@@ -1,0 +1,24 @@
+{
+  "name": "safecmd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlchemiaLabs/nodejs-safecmd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlchemiaLabs/nodejs-safecmd/issues"
+  },
+  "homepage": "https://github.com/AlchemiaLabs/nodejs-safecmd#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  }
+}
